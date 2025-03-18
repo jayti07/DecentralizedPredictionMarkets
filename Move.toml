@@ -1,0 +1,15 @@
+[package]
+name = "predict-market"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xf7d3ac438b12550b53e0bcc839ccfb446ec0a132b6189ef63673807fde0b7456"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
